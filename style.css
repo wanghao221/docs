@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 250px; /* 左侧宽度，可以根据需要进行调整 */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
